@@ -1,5 +1,5 @@
 var pwChange = document.querySelector('#chpassword');
-pwChange.addEventListener('change', alert1, false);
+pwChange.addEventListener('change', alert1);
 
 function alert1(){
   var type = $('#chpassword').attr('type');
